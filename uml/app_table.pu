@@ -1,0 +1,8 @@
+@startuml AppTable
+
+class AppTable {
+    AppID []byte
+    table map[[]byte][]byte
+}
+
+@enduml

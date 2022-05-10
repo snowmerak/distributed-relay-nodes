@@ -1,0 +1,9 @@
+@startuml message
+
+class Message {
+    Destination []byte
+    CapsulatedKey []byte
+    Data []byte
+}
+
+@enduml

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="114px" preserveAspectRatio="none" style="width:130px;height:114px;background:#FFFFFF;" version="1.1" viewBox="0 0 130 114" width="130px" zoomAndPan="magnify"><defs><filter height="300%" id="f5rchre2ph5e3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[9c3b62adbf6f70de9f7865728c502100]
+class Trap--><rect codeLine="2" fill="#FEFECE" filter="url(#f5rchre2ph5e3)" height="93.3267" id="Trap" style="stroke:#A80036;stroke-width:1.5;" width="109" x="7" y="7"/><ellipse cx="45.4" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M45.3063,16.3281 Q43.3844,16.3281 42.2125,18.1094 Q41.0094,19.9063 41.0094,22.9375 Q41.0094,26.3438 42.2281,28.125 Q43.3063,29.7813 45.1031,29.7813 Q46.8219,29.7813 47.7906,28.8594 Q48.8688,27.8125 49.025,25.5469 Q49.025,25.0938 48.7594,24.8281 Q48.5563,24.5781 48.1813,24.5469 Q47.8219,24.5469 47.5719,24.75 Q47.275,25.0156 47.275,25.4375 Q47.2438,26.7969 46.6656,27.5156 Q46.15,28.1875 45.2438,28.1875 Q44.1344,28.1875 43.4469,26.7813 Q42.7281,25.3125 42.7281,22.9063 Q42.7281,20.375 43.6031,19.0156 Q44.3375,17.9219 45.4313,17.9219 Q46.0406,17.9219 46.525,18.4375 Q47.0719,19.0313 47.1969,20.0625 Q47.2594,20.8594 48.1656,20.7344 Q49.0094,20.6094 48.9625,19.8594 Q48.775,18.3125 47.9781,17.4063 Q47.025,16.3281 45.3063,16.3281 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="25" x="64.6" y="28.6045">Trap</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="115" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="13" y="55.6919">TargetApp []byte</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="13" y="70.8008">CommandType int64</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="13" y="85.9097">Data []byte</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="115" y1="92.3267" y2="92.3267"/><!--MD5=[57b31b2cf8d4eddc99191f8c1051ae34]
+@startuml trap
+
+class Trap {
+    TargetApp []byte
+    CommandType int64
+    Data []byte
+}
+
+@enduml
+
+PlantUML version 1.2022.0(Wed Jan 12 01:16:42 KST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: MS949
+Language: ko
+Country: KR
+--></g></svg>

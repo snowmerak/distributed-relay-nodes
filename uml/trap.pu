@@ -1,0 +1,9 @@
+@startuml trap
+
+class Trap {
+    TargetApp []byte
+    CommandType int64
+    Data []byte
+}
+
+@enduml

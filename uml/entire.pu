@@ -1,0 +1,32 @@
+@startuml entire
+
+actor LeafNode1
+actor LeafNode2
+actor LeafNode3
+actor LeafNode4
+actor LeafNode5
+actor LeafNode6
+
+cloud Network {
+    node RelayNode1
+    node RelayNode2
+    node RelayNode3
+
+    RelayNode1 -down-> RelayNode2
+    RelayNode1 -> RelayNode3
+    RelayNode2 -> RelayNode3
+    RelayNode2 -> RelayNode1
+    RelayNode3 -> RelayNode1
+    RelayNode3 -> RelayNode2
+}
+
+LeafNode1 -up-> RelayNode1
+LeafNode2 -up-> RelayNode1
+
+LeafNode3 -down-> RelayNode2
+LeafNode4 -down-> RelayNode2
+
+LeafNode5 -up-> RelayNode3
+LeafNode6 -up-> RelayNode3
+
+@enduml
